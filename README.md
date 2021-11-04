@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi @evryone 👋
 
 <!--
 **Papoel/Papoel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+<a href="https://app.daily.dev/Papoel"><img src="https://api.daily.dev/devcards/cbb1051391754e29bffbcd8641a87f5c.png?r=q9r" width="400" alt="Pascal Briffard's Dev Card"/></a>
