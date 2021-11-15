@@ -22,3 +22,6 @@ Here are some ideas to get you started:
 -->
 
 <a href="https://app.daily.dev/Papoel"><img src="https://api.daily.dev/devcards/cbb1051391754e29bffbcd8641a87f5c.png?r=q9r" width="150" alt="Pascal Briffard's Dev Card"/></a>
+
+<!-- Footer -->
+<p align="center"> © 2021 Papoel, all rights reserved. Made with ❤️ for a better web. </p>
