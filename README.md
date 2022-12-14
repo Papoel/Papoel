@@ -2,7 +2,7 @@
 
 [![Papoel's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Papoel)](https://github.com/Papoel/Papoel/README.MD)
 
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=Naereen&theme=blue-green)](https://github.com/anuraghazra/github-readme-stats)
+[![Papoel's github stats](https://github-readme-stats.vercel.app/api?username=Papoel&theme=blue-green)](https://github.com/papoel/github-readme-stats)
 
 <img align="center" src="https://github-readme-streak-stats.herokuapp.com?user=Papoel&theme=vue-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="My github stats" />
 
