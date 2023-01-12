@@ -50,11 +50,11 @@ class AboutMe {
 
 $aboutMe = new AboutMe("Papoel", 37, "Lille", "Project Manager");
 ```
-| Name     | Age | Location   | Occupation    |
-|----------|-----|------------|----------------|
-| Papoel   | 37  | Lille      | Project Manager|
+>| Name     | Age | Location   | Occupation     |
+>|----------|-----|------------|----------------|
+>| Papoel   | 37  | Lille      | Project Manager|
 
-
+---
 #### My GitHub Data :octocat:
 > 🏆 ???+ Contributions in the Year 2022
  > 
@@ -64,10 +64,13 @@ $aboutMe = new AboutMe("Papoel", 37, "Lille", "Project Manager");
  > 
 
 #### Popular Projects
-<a href="https://github.com/Papoel/Pasteur">
+<ul>
+  <li>Coming soon</li>
+</ul>
+<!-- <a href="https://github.com/Papoel/Pasteur"> -->
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Papoel&repo=Pasteur&theme=onedark" />
-</a>  
+<!--   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Papoel&repo=Pasteur&theme=onedark" /> -->
+<!-- </a> -->
 
 #### Trophies
 
@@ -79,50 +82,71 @@ $aboutMe = new AboutMe("Papoel", 37, "Lille", "Project Manager");
 </p>
 
 #### Stats
-<a href="https://github.com/Papoel/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.papoel.vercel.app/api?username=Papoel&show_icons=true&include_all_commits=true&theme=onedark" 
+
+<ul>
+  <li>Coming soon</li>
+</ul>
+
+<!-- <a href="https://github.com/Papoel/github-readme-stats"> -->
+  <!-- <img align="center" src="https://github-readme-stats.papoel.vercel.app/api?username=Papoel&show_icons=true&include_all_commits=true&theme=onedark" 
        alt="Papoel's github stats" 
-  />
-</a>
+  /> -->
+<!-- </a> -->
 
-<a href="https://github.com/Papoel/github-readme-stats">
+<!-- <a href="https://github.com/Papoel/github-readme-stats">
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
-  <img align="center" src="https://github-readme-stats.papoel.vercel.app/api/top-langs/?username=Papoel&layout=compact&theme=onedark" />
-</a>
+  <!-- <img align="center" src="https://github-readme-stats.papoel.vercel.app/api/top-langs/?username=Papoel&layout=compact&theme=onedark" /> -->
+<!-- </a> -->
 
-<br />
-<br />
+  <!-- <br /> -->
+  <!-- <br /> -->
 
-<p align="center">
+<p align="left">
   <img align="center" height="150em" src="https://github-readme-streak-stats.herokuapp.com/?user=Papoel&theme=onedark" alt="Papoel" />
 </p>
 
 #### Contribution Graph
-![snake gif](https://github.com/Papoel/Papoel/blob/output/github-contribution-grid-snake.svg)
+<ul>
+  <li>Work In Progress</li>
+</ul>
+<!-- ![snake gif](https://github.com/Papoel/Papoel/blob/output/github-contribution-grid-snake.svg) -->
 
-#### I'm an Early 🐤
-```text
-🌞 Morning    54 commits     ████░░░░░░░░░░░░░░░░░░░░░   12.5% 
-🌆 Daytime    205 commits    ████████████░░░░░░░░░░░░░   54.5% 
-🌃 Evening    82 commits     ██████░░░░░░░░░░░░░░░░░░░   20.5% 
-🌙 Night      36 commits     ███░░░░░░░░░░░░░░░░░░░░░░   13.5%
-```
+
+---
+<!-- #### I'm an Early 🐤 -->
+<!-- ```text -->
+<!-- 🌞 Morning    54 commits     ████░░░░░░░░░░░░░░░░░░░░░   12.5%  -->
+<!-- 🌆 Daytime    205 commits    ████████████░░░░░░░░░░░░░   54.5%  -->
+<!-- 🌃 Evening    82 commits     ██████░░░░░░░░░░░░░░░░░░░   20.5%  -->
+<!-- 🌙 Night      36 commits     ███░░░░░░░░░░░░░░░░░░░░░░   13.5% -->
+<!-- ``` -->
 
 #### I Spent My Time On
 ```text
-💬 Programming Lanuages:
-HTML                     3 hr 50 mins        ███████████░░░░░░░░░░░░░░   46% 
-CSS                      1 hr 5 mins         █████████░░░░░░░░░░░░░░░░   30% 
-Python                   59 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   10% 
-GitHub & Git             57 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   9.5%
-
 🔥 Editors:
-VS Code                  4 Hours            ██████████████░░░░░░░░░░░   50% 
-Atom                     1 Hour             ██████████████░░░░░░░░░░░   50%
+VS Code                  1 Hour                   ███░░░░░░░░░░░░░░░░░░░░░░   7%
+PhpStorm                 13 Hours                 ██████████████████████░░░   93%
 
 💻 Operating System:
-Linux Ubuntu             14 hrs 2 mins      █████████████████████████   100.0%
+Mac Os                   14 Hours                 █████████████████████████   100.0%
 ```
+
+<!-- ```text -->
+<!-- 💬 Programming Lanuages: -->
+<!-- HTML                     3 hr 50 mins        ███████████░░░░░░░░░░░░░░   46%  -->
+<!-- CSS                      1 hr 5 mins         █████████░░░░░░░░░░░░░░░░   30%  -->
+<!-- Python                   59 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   10%  -->
+<!-- GitHub & Git             57 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   9.5% -->
+
+<!-- 🔥 Editors: -->
+<!-- VS Code                  4 Hours            ██████████████░░░░░░░░░░░   50% -->
+<!-- Atom                     1 Hour             ██████████████░░░░░░░░░░░   50% -->
+
+<!-- 💻 Operating System: -->
+<!-- Linux Ubuntu             14 hrs 2 mins      █████████████████████████   100.0% -->
+<!-- ``` -->
+---
+
 ------
 Credit: [Papoel](https://github.com/Papoel)
 Last Edited on: 12/01/2023.
