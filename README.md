@@ -59,6 +59,12 @@ $aboutMe = new AboutMe("Papoel", 37, "Lille", "Project Manager");
 >| Papoel   | 37  | Lille      | Project Manager|
 
 ---
+#### My followers
+ <!--START_SECTION:top-followers--> 
+ <!--END_SECTION:top-followers-->
+
+
+---
 #### My GitHub Data :octocat:
 > 🏆 ???+ Contributions in the Year 2022
  > 
