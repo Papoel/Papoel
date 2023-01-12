@@ -115,21 +115,34 @@ $aboutMe = new AboutMe("Papoel", 37, "Lille", "Project Manager");
 </ul>
 <!-- ![snake gif](https://github.com/Papoel/Papoel/blob/output/github-contribution-grid-snake.svg) -->
 
-------
-![Code Time](http://img.shields.io/badge/Code%20Time-2%2C165%20hrs%2024%20mins-blue)
-
-![Profile Views](http://img.shields.io/badge/Profile%20Views-1072-blue)
-
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1%20Million%20lines%20of%20code-blue)
 ---
+<!-- GitHub stats -->
+<b>⚡ My Dev Statistics</b>
 
+
+<p>
+<!-- GitHub Stats -->
+<picture>
+  <source 
+    srcset="https://github-readme-stats.vercel.app/api?username=papoel&show_icons=true&theme=dark"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=papoel&show_icons=true"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github-readme-stats.vercel.app/api?username=papoel&show_icons=true" />
+</picture>
+
+
+</p>
+
+----
+####  🧑‍💻 Wakatime Metrics
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-2%2C870%20hrs%2013%20mins-blue)
 
 
  Last Updated on 12/01/2023 20:16:46 UTC
 <!--END_SECTION:waka-->
-
-Credit: [Papoel](https://github.com/Papoel)
-Last Edited on: 12/01/2023.
 
