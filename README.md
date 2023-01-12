@@ -151,9 +151,10 @@ Mac Os                   14 Hours                 ██████████
 Credit: [Papoel](https://github.com/Papoel)
 Last Edited on: 12/01/2023.
 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
-
-[![Papoel's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Papoel)](https://github.com/Papoel/Papoel/README.MD)
+<!-- [![Papoel's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Papoel)](https://github.com/Papoel/Papoel/README.MD) -->
 
 
 
