@@ -131,19 +131,9 @@ $aboutMe = new AboutMe("Papoel", 37, "Lille", "Project Manager");
 
 **I Mostly Code in PHP** 
 
-```text
-From: 21 August 2020 - To: 11 January 2023
+<!--END_SECTION:waka-->
 
-Total Time: 2,867 hrs 3 mins
-
-PHP              1,048 hrs 23 mins█████████░░░░░░░░░░░░░░░░   36.57 %
-Twig             490 hrs 31 mins ████▒░░░░░░░░░░░░░░░░░░░░   17.11 %
-HTML             272 hrs 26 mins ██▒░░░░░░░░░░░░░░░░░░░░░░   09.50 %
-JavaScript       271 hrs 39 mins ██▒░░░░░░░░░░░░░░░░░░░░░░   09.48 %
-CSS              192 hrs 31 mins █▓░░░░░░░░░░░░░░░░░░░░░░░   06.72 %
-JSON             105 hrs 40 mins █░░░░░░░░░░░░░░░░░░░░░░░░   03.69 %
-```
-
+<!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
 
 Credit: [Papoel](https://github.com/Papoel)
