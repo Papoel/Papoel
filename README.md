@@ -7,16 +7,18 @@
 <p>I'm a certified fullstack developer since the end of 2021, I'm a junior because I only code in my spare time and I'm not lucky enough to have made it my job.
 </p>
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Papoel)](https://github.com/Papoel/github-readme-stats)
+<div>
+  <ul align="left">
+    <li>👋 Hi, I’m @Papoel</li>
+    <li>❤️ I love Creating websites and Programming with Symfony.</li>
+    <li>🌱 I’m currently learning Web Development, Angular, Python, and JS.</li>
+    <li>💼 I work as a project manager in nuclear power plants.</li>
+    <li>🧐 Portfolio Website: coming soon</li>
+  </ul>
 
-<img align="right" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif">
-<ul>
-  <li>👋 Hi, I’m @Papoel</li>
-  <li>❤️ I love Creating websites and Programming with Symfony.</li>
-  <li>🌱 I’m currently learning Web Development, Angular, Python, and JS.</li>
-  <li>💼 I work as a project manager in nuclear power plants.</li>
-  <li>🧐 Portfolio Website: coming soon</li>
-</ul>
+  <img align="right" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif">
+</div>
+
 
 #### A little more about me
 ```php
@@ -114,7 +116,6 @@ $aboutMe = new AboutMe("Papoel", 37, "Lille", "Project Manager");
 <!-- ![snake gif](https://github.com/Papoel/Papoel/blob/output/github-contribution-grid-snake.svg) -->
 
 ------
-<!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-2%2C165%20hrs%2024%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-1072-blue)
@@ -130,8 +131,6 @@ $aboutMe = new AboutMe("Papoel", 37, "Lille", "Project Manager");
 📊 **This Week I Spent My Time On** 
 
 **I Mostly Code in PHP** 
-
-<!--END_SECTION:waka-->
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
