@@ -133,6 +133,32 @@ $aboutMe = new AboutMe("Papoel", 37, "Lille", "Project Manager");
 **I Mostly Code in PHP** 
 
 <!--START_SECTION:waka-->
+
+
+
+
+
+
+
+
+
+🐱 My GitHub Data
+
+I'm an
+
+📅 I'm Most Productive on 
+
+📊 This Week I Spent My Time On
+
+I Mostly Code in
+
+
+
+
+
+
+
+
 <!--END_SECTION:waka-->
 
 Credit: [Papoel](https://github.com/Papoel)
