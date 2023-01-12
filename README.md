@@ -16,7 +16,7 @@
     <li>🧐 Portfolio Website: coming soon</li>
   </ul>
 
-  <img align="right" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif">
+<img align="right" style="width:200px; margin-top:50%; display:block;" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif">
 </div>
 
 
@@ -121,43 +121,9 @@ $aboutMe = new AboutMe("Papoel", 37, "Lille", "Project Manager");
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-1072-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1%20Million%20lines%20of%20code-blue)
-
-**🐱 My GitHub Data** 
-
-**I'm an Early 🐤** 
-
-📅 **I'm Most Productive on Sunday** 
-
-📊 **This Week I Spent My Time On** 
-
-**I Mostly Code in PHP** 
+---
 
 <!--START_SECTION:waka-->
-
-
-
-
-
-
-
-
-
-🐱 My GitHub Data
-
-I'm an
-
-📅 I'm Most Productive on 
-
-📊 This Week I Spent My Time On
-
-I Mostly Code in
-
-
-
-
-
-
-
 
 <!--END_SECTION:waka-->
 
