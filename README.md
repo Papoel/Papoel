@@ -124,7 +124,10 @@ $aboutMe = new AboutMe("Papoel", 37, "Lille", "Project Manager");
 ---
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-2%2C870%20hrs%2013%20mins-blue)
 
+
+ Last Updated on 12/01/2023 20:16:46 UTC
 <!--END_SECTION:waka-->
 
 Credit: [Papoel](https://github.com/Papoel)
