@@ -11,8 +11,9 @@
   <ul align="left">
     <li>👋 Hi, I’m @Papoel</li>
     <li>❤️ I love Creating websites and Programming with Symfony.</li>
-    <li>🌱 I’m currently learning Web Development, Angular, Python, and JS.</li>
+    <li>🌱 I'm improving my skills with the Symfony framework by following @ParlonsCode's courses.</li>
     <li>💼 I work as a project manager in nuclear power plants.</li>
+    <li>👉 I would like to collaborate as a volunteer on projects to increase my skills.</li>
     <li>🧐 Portfolio Website: coming soon</li>
   </ul>
 
