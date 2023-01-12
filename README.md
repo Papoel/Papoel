@@ -19,7 +19,7 @@
 <img align="right" style="width:200px; margin-top:50%; display:block;" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif">
 </div>
 
-
+---
 #### A little more about me
 ```php
 class AboutMe {
@@ -59,29 +59,6 @@ $aboutMe = new AboutMe("Papoel", 37, "Lille", "Project Manager");
 >| Papoel   | 37  | Lille      | Project Manager|
 
 ---
-#### My followers
- <!--START_SECTION:top-followers--> 
- <!--END_SECTION:top-followers-->
-
-
----
-#### My GitHub Data :octocat:
-> 🏆 ???+ Contributions in the Year 2022
- > 
-> 📜 ???+ Commits on GitHub
- > 
-> 🔑 ???+ Contribution in Private Repos
- > 
-
-#### Popular Projects
-<ul>
-  <li>Coming soon</li>
-</ul>
-<!-- <a href="https://github.com/Papoel/Pasteur"> -->
-  <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
-<!--   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Papoel&repo=Pasteur&theme=onedark" /> -->
-<!-- </a> -->
-
 #### Trophies
 
 <p align="left">
@@ -91,40 +68,11 @@ $aboutMe = new AboutMe("Papoel", 37, "Lille", "Project Manager");
   </a>
 </p>
 
+---
 #### Stats
-
-<ul>
-  <li>Coming soon</li>
-</ul>
-
-<!-- <a href="https://github.com/Papoel/github-readme-stats"> -->
-  <!-- <img align="center" src="https://github-readme-stats.papoel.vercel.app/api?username=Papoel&show_icons=true&include_all_commits=true&theme=onedark" 
-       alt="Papoel's github stats" 
-  /> -->
-<!-- </a> -->
-
-<!-- <a href="https://github.com/Papoel/github-readme-stats">
-  <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
-  <!-- <img align="center" src="https://github-readme-stats.papoel.vercel.app/api/top-langs/?username=Papoel&layout=compact&theme=onedark" /> -->
-<!-- </a> -->
-
-  <!-- <br /> -->
-  <!-- <br /> -->
-
 <p align="left">
   <img align="center" height="150em" src="https://github-readme-streak-stats.herokuapp.com/?user=Papoel&theme=onedark" alt="Papoel" />
 </p>
-
-#### Contribution Graph
-<ul>
-  <li>Work In Progress</li>
-</ul>
-<!-- ![snake gif](https://github.com/Papoel/Papoel/blob/output/github-contribution-grid-snake.svg) -->
-
----
-<!-- GitHub stats -->
-<b>⚡ My Dev Statistics</b>
-
 
 <p>
 <!-- GitHub Stats -->
@@ -139,8 +87,6 @@ $aboutMe = new AboutMe("Papoel", 37, "Lille", "Project Manager");
   />
   <img src="https://github-readme-stats.vercel.app/api?username=papoel&show_icons=true" />
 </picture>
-
-
 </p>
 
 ----
