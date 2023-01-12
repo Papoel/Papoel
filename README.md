@@ -7,7 +7,7 @@
 <p>I'm a certified fullstack developer since the end of 2021, I'm a junior because I only code in my spare time and I'm not lucky enough to have made it my job.
 </p>
 
-<img  align= "center"  src= "https://github-readme-stats.vercel.app/api/wakatime?username=Papoel&theme=monokai&hide_title=true&layout=default"  />
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Papoel)](https://github.com/Papoel/github-readme-stats)
 
 <img align="right" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif">
 <ul>
