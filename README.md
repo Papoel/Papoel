@@ -57,7 +57,7 @@ $aboutMe = new AboutMe("Papoel", 37, "Lille", "Project Manager");
 ```
 >| Name     | Age | Location   | Occupation     |
 >|----------|-----|------------|----------------|
->| Papoel   | 37  | Lille      | Project Manager|
+>| Papoel   | 38  | Lille      | Project Manager|
 
 ---
 #### Trophies
