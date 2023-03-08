@@ -24,11 +24,6 @@
 #### A little more about me
 ```php
 class AboutMe {
-    private $name;
-    private $age;
-    private $location;
-    private $occupation;
-
     public function __construct(
       private string $name, 
       private integer $age, 
@@ -53,7 +48,7 @@ class AboutMe {
     }
 }
 
-$aboutMe = new AboutMe("Papoel", 37, "Lille", "Project Manager");
+$aboutMe = new AboutMe("Papoel", 38, "Lille", "Project Manager");
 ```
 >| Name     | Age | Location   | Occupation     |
 >|----------|-----|------------|----------------|
