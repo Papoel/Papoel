@@ -88,7 +88,7 @@ $aboutMe = new AboutMe("Papoel", 38, "Lille", "Project Manager");
 ----
 ####  🧑‍💻 Wakatime Metrics
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-3%2C217%20hrs%2019%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-3%2C217%20hrs%2012%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-7-blue)
 
@@ -98,7 +98,7 @@ $aboutMe = new AboutMe("Papoel", 38, "Lille", "Project Manager");
 
 > 📦 50.6 kB Utilisés sur le stockage de GitHub 
  > 
-> 🏆 247 Contributions en 2023
+> 🏆 250 Contributions en 2023
  > 
 > 🚫 N'a pas choisi d'embaucher
  > 
@@ -161,6 +161,6 @@ Twig                     1 repo              ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 16/03/2023 00:06:18 UTC
+ Last Updated on 17/03/2023 00:06:17 UTC
 <!--END_SECTION:waka-->
 
