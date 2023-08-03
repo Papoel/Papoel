@@ -90,7 +90,7 @@ $aboutMe = new AboutMe("Papoel", 38, "Lille", "Project Manager");
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-3%2C626%20hrs-blue)
 
-![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-0-blue)
+![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-11-blue)
 
 ![Lines of code](https://img.shields.io/badge/Depuis%20Hello%20World%2C%20j%27ai%20%C3%A9crit-7.3%20million%20Lignes%20de%20code-blue)
 
@@ -167,6 +167,6 @@ CSS                      1 repo              ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 02/08/2023 00:07:05 UTC
+ Last Updated on 03/08/2023 00:07:40 UTC
 <!--END_SECTION:waka-->
 
