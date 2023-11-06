@@ -98,11 +98,11 @@ $aboutMe = new AboutMe("Papoel", 38, "Lille", "Project Manager");
 
 > 📦 1.1 MB Utilisés sur le stockage de GitHub 
  > 
-> 🏆 756 Contributions en 2023
+> 🏆 757 Contributions en 2023
  > 
 > 🚫 N'a pas choisi d'embaucher
  > 
-> 📜 18 dépots publiques 
+> 📜 19 dépots publiques 
  > 
 > 🔑 13 dépots privés 
  > 
@@ -158,6 +158,6 @@ Makefile                 1 repo              ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 05/11/2023 00:07:53 UTC
+ Last Updated on 06/11/2023 00:07:32 UTC
 <!--END_SECTION:waka-->
 
