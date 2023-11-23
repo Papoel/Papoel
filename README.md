@@ -88,8 +88,6 @@ $aboutMe = new AboutMe("Papoel", 38, "Lille", "Project Manager");
 ----
 ####  🧑‍💻 Wakatime Metrics
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-3%2C888%20hrs%2023%20mins-blue)
-
 ![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-0-blue)
 
 ![Lines of code](https://img.shields.io/badge/Depuis%20Hello%20World%2C%20j%27ai%20%C3%A9crit-9.4%20million%20Lignes%20de%20code-blue)
@@ -98,7 +96,7 @@ $aboutMe = new AboutMe("Papoel", 38, "Lille", "Project Manager");
 
 > 📦 1.1 MB Utilisés sur le stockage de GitHub 
  > 
-> 🏆 757 Contributions en 2023
+> 🏆 761 Contributions en 2023
  > 
 > 🚫 N'a pas choisi d'embaucher
  > 
@@ -106,45 +104,6 @@ $aboutMe = new AboutMe("Papoel", 38, "Lille", "Project Manager");
  > 
 > 🔑 13 dépots privés 
  > 
-**Je suis un 🦉 de nuit** 
-
-```text
-🌞 Matin                  659 commits         ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   13.92 % 
-🌆 Journée                1657 commits        ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   35.01 % 
-🌃 Soirée                 1972 commits        ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   41.66 % 
-🌙 Nuit                   445 commits         ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   09.40 % 
-```
-📅 **Je suis le plus productif le Vendredi** 
-
-```text
-Lundi                    756 commits         ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   15.97 % 
-Mardi                    646 commits         ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   13.65 % 
-Mercredi                 657 commits         ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   13.88 % 
-Jeudi                    716 commits         ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   15.13 % 
-Vendredi                 902 commits         ⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   19.06 % 
-Samedi                   566 commits         ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   11.96 % 
-Dimanche                 490 commits         ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   10.35 % 
-```
-
-
-📊 **Cette semaine, je passe mon temps sur** 
-
-```text
-🕑︎ Fuseau horaire: Europe/Paris
-
-💬 Langages: 
-Aucune activité enregistrée cette semaine
-
-🔥 Éditeurs de code: 
-Aucune activité enregistrée cette semaine
-
-🐱‍💻 Projets: 
-Aucune activité enregistrée cette semaine
-
-💻 Système d'exploitation: 
-Aucune activité enregistrée cette semaine
-```
-
 **Je code principalement en PHP** 
 
 ```text
@@ -158,6 +117,6 @@ Makefile                 1 repo              ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 18/11/2023 00:07:39 UTC
+ Last Updated on 23/11/2023 00:07:44 UTC
 <!--END_SECTION:waka-->
 
