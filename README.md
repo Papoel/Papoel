@@ -88,7 +88,7 @@ $aboutMe = new AboutMe("Papoel", 38, "Lille", "Project Manager");
 ----
 ####  🧑‍💻 Wakatime Metrics
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C002%20hrs%2017%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C002%20hrs%2023%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-0-blue)
 
@@ -133,16 +133,16 @@ Dimanche                 557 commits         ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 🕑︎ Fuseau horaire: Europe/Paris
 
 💬 Langages: 
-PHP                      0 secs              ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛   100.00 % 
+YAML                     6 mins              ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛   100.00 % 
 
 🔥 Éditeurs de code: 
-Aucune activité enregistrée cette semaine
+VS Code                  6 mins              ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛   100.00 % 
 
 🐱‍💻 Projets: 
-Aucune activité enregistrée cette semaine
+Unknown Project          6 mins              ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛   100.00 % 
 
 💻 Système d'exploitation: 
-Aucune activité enregistrée cette semaine
+Mac                      6 mins              ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛   100.00 % 
 ```
 
 **Je code principalement en PHP** 
@@ -158,6 +158,6 @@ SCSS                     1 repo              ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 30/01/2024 00:07:57 UTC
+ Last Updated on 31/01/2024 00:07:46 UTC
 <!--END_SECTION:waka-->
 
