@@ -50,9 +50,9 @@ class AboutMe {
 
 $aboutMe = new AboutMe("Papoel", 38, "Lille", "Project Manager");
 ```
->| Name     | Age | Location   | Occupation     |
->|----------|-----|------------|----------------|
->| Papoel   | 38  | Lille      | Project Manager|
+>| Name     | Age | Location   | Occupation      |
+>|----------|-----|------------|-----------------|
+>| Papoel   | 39  | Dieppe      | Project Manager|
 
 ---
 #### Trophies
