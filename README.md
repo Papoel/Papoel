@@ -88,7 +88,7 @@ $aboutMe = new AboutMe("Papoel", 39, "Dieppe", "Project Manager");
 ----
 ####  🧑‍💻 Wakatime Metrics
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C461%20hrs%2033%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C467%20hrs%2013%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-0-blue)
 
@@ -97,6 +97,8 @@ $aboutMe = new AboutMe("Papoel", 39, "Dieppe", "Project Manager");
 **🐱 Mes données GitHub** 
 
 > 📦 1.2 MB Utilisés sur le stockage de GitHub 
+ > 
+> 🏆 378 Contributions en 2024
  > 
 > 🚫 N'a pas choisi d'embaucher
  > 
@@ -161,6 +163,6 @@ SCSS                     1 repo              ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 21/08/2024 00:09:10 UTC
+ Last Updated on 22/08/2024 00:09:18 UTC
 <!--END_SECTION:waka-->
 
