@@ -88,7 +88,7 @@ $aboutMe = new AboutMe("Papoel", 39, "Dieppe", "Project Manager");
 ----
 ####  🧑‍💻 Wakatime Metrics
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C551%20hrs%2046%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C555%20hrs%2012%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-0-blue)
 
@@ -162,6 +162,6 @@ SCSS                     1 repo              ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 17/09/2024 00:09:49 UTC
+ Last Updated on 18/09/2024 00:10:33 UTC
 <!--END_SECTION:waka-->
 
