@@ -88,6 +88,8 @@ $aboutMe = new AboutMe("Papoel", 39, "Dieppe", "Project Manager");
 ----
 ####  🧑‍💻 Wakatime Metrics
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C598%20hrs%2034%20mins-blue)
+
 ![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-1-blue)
 
 ![Lines of code](https://img.shields.io/badge/Depuis%20Hello%20World%2C%20j%27ai%20%C3%A9crit-13.4%20million%20Lignes%20de%20code-blue)
@@ -96,14 +98,51 @@ $aboutMe = new AboutMe("Papoel", 39, "Dieppe", "Project Manager");
 
 > 📦 1.2 MB Utilisés sur le stockage de GitHub 
  > 
-> 🏆 435 Contributions en 2024
- > 
 > 🚫 N'a pas choisi d'embaucher
  > 
 > 📜 25 dépots publiques 
  > 
 > 🔑 16 dépots privés 
  > 
+**Je suis un 🦉 de nuit** 
+
+```text
+🌞 Matin                  860 commits         ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   08.64 % 
+🌆 Journée                3191 commits        ⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   32.04 % 
+🌃 Soirée                 4611 commits        ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   46.30 % 
+🌙 Nuit                   1297 commits        ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   13.02 % 
+```
+📅 **Je suis le plus productif le Mercredi** 
+
+```text
+Lundi                    1236 commits        ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   12.41 % 
+Mardi                    1177 commits        ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   11.82 % 
+Mercredi                 2190 commits        ⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   21.99 % 
+Jeudi                    1505 commits        ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   15.11 % 
+Vendredi                 1266 commits        ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   12.71 % 
+Samedi                   1501 commits        ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   15.07 % 
+Dimanche                 1084 commits        ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   10.88 % 
+```
+
+
+📊 **Cette semaine, je passe mon temps sur** 
+
+```text
+🕑︎ Fuseau horaire: Europe/Paris
+
+💬 Langages: 
+Aucune activité enregistrée cette semaine
+
+🔥 Éditeurs de code: 
+Aucune activité enregistrée cette semaine
+
+🐱‍💻 Projets: 
+Aucune activité enregistrée cette semaine
+
+💻 Système d'exploitation: 
+Aucune activité enregistrée cette semaine
+```
+
 **Je code principalement en PHP** 
 
 ```text
@@ -117,6 +156,6 @@ SCSS                     1 repo              ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 23/10/2024 00:10:25 UTC
+ Last Updated on 24/10/2024 00:10:17 UTC
 <!--END_SECTION:waka-->
 
