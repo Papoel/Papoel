@@ -88,7 +88,7 @@ $aboutMe = new AboutMe("Papoel", 39, "Dieppe", "Project Manager");
 ----
 ####  🧑‍💻 Wakatime Metrics
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-4%2C598%20hrs%2034%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-4%2C602%20hrs%2022%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-1-blue)
 
@@ -97,6 +97,8 @@ $aboutMe = new AboutMe("Papoel", 39, "Dieppe", "Project Manager");
 **🐱 Mes données GitHub** 
 
 > 📦 1.2 MB Utilisés sur le stockage de GitHub 
+ > 
+> 🏆 435 Contributions en 2024
  > 
 > 🚫 N'a pas choisi d'embaucher
  > 
@@ -131,16 +133,20 @@ Dimanche                 1084 commits        ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜�
 🕑︎ Fuseau horaire: Europe/Paris
 
 💬 Langages: 
-Aucune activité enregistrée cette semaine
+PHP                      2 hrs 53 mins       ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜   76.18 % 
+XML                      40 mins             ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   17.75 % 
+.env file                12 mins             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   05.41 % 
+TSConfig                 0 secs              ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   00.30 % 
+JSON                     0 secs              ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   00.20 % 
 
 🔥 Éditeurs de code: 
-Aucune activité enregistrée cette semaine
+PhpStorm                 3 hrs 47 mins       ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛   100.00 % 
 
 🐱‍💻 Projets: 
-Aucune activité enregistrée cette semaine
+GuideNouvelArrivant      3 hrs 47 mins       ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛   100.00 % 
 
 💻 Système d'exploitation: 
-Aucune activité enregistrée cette semaine
+Mac                      3 hrs 47 mins       ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛   100.00 % 
 ```
 
 **Je code principalement en PHP** 
@@ -156,6 +162,6 @@ SCSS                     1 repo              ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 27/10/2024 00:10:56 UTC
+ Last Updated on 28/10/2024 00:10:34 UTC
 <!--END_SECTION:waka-->
 
