@@ -90,13 +90,15 @@ $aboutMe = new AboutMe("Papoel", 39, "Dieppe", "Project Manager");
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-4%2C602%20hrs%2022%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-1-blue)
+![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-0-blue)
 
 ![Lines of code](https://img.shields.io/badge/Depuis%20Hello%20World%2C%20j%27ai%20%C3%A9crit-13.4%20million%20Lignes%20de%20code-blue)
 
 **🐱 Mes données GitHub** 
 
 > 📦 1.2 MB Utilisés sur le stockage de GitHub 
+ > 
+> 🏆 435 Contributions en 2024
  > 
 > 🚫 N'a pas choisi d'embaucher
  > 
@@ -160,6 +162,6 @@ SCSS                     1 repo              ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 30/10/2024 00:10:10 UTC
+ Last Updated on 31/10/2024 00:10:25 UTC
 <!--END_SECTION:waka-->
 
