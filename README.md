@@ -98,7 +98,7 @@ $aboutMe = new AboutMe("Papoel", 39, "Dieppe", "Project Manager");
 
 > 📦 1.2 MB Utilisés sur le stockage de GitHub 
  > 
-> 🏆 493 Contributions en 2024
+> 🏆 0 Contributions en 2025
  > 
 > 🚫 N'a pas choisi d'embaucher
  > 
@@ -164,6 +164,6 @@ SCSS                     1 repo              ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 31/12/2024 00:11:12 UTC
+ Last Updated on 01/01/2025 00:12:12 UTC
 <!--END_SECTION:waka-->
 
