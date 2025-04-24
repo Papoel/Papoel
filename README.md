@@ -90,7 +90,7 @@ $aboutMe = new AboutMe("Papoel", 39, "Dieppe", "Project Manager");
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-4%2C855%20hrs%2019%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-1-blue)
+![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-0-blue)
 
 ![Lines of code](https://img.shields.io/badge/Depuis%20Hello%20World%2C%20j%27ai%20%C3%A9crit-17.0%20million%20Lignes%20de%20code-blue)
 
@@ -165,6 +165,6 @@ Dockerfile               1 repo              ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 23/04/2025 00:11:23 UTC
+ Last Updated on 24/04/2025 00:11:16 UTC
 <!--END_SECTION:waka-->
 
