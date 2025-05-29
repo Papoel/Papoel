@@ -98,7 +98,7 @@ $aboutMe = new AboutMe("Papoel", 39, "Dieppe", "Project Manager");
 
 > 📦 1.3 MB Utilisés sur le stockage de GitHub 
  > 
-> 🏆 413 Contributions en 2025
+> 🏆 0 Contributions en 2025
  > 
 > 🚫 N'a pas choisi d'embaucher
  > 
@@ -166,6 +166,6 @@ Makefile                 2 repos             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 28/05/2025 00:12:52 UTC
+ Last Updated on 29/05/2025 00:11:36 UTC
 <!--END_SECTION:waka-->
 
