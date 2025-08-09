@@ -92,13 +92,11 @@ $aboutMe = new AboutMe("Papoel", 39, "Dieppe", "Project Manager");
 
 ![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-0-blue)
 
-![Lines of code](https://img.shields.io/badge/Depuis%20Hello%20World%2C%20j%27ai%20%C3%A9crit-20.2%20million%20Lignes%20de%20code-blue)
+![Lines of code](https://img.shields.io/badge/Depuis%20Hello%20World%2C%20j%27ai%20%C3%A9crit-20.4%20million%20Lignes%20de%20code-blue)
 
 **🐱 Mes données GitHub** 
 
 > 📦 1.3 MB Utilisés sur le stockage de GitHub 
- > 
-> 🏆 508 Contributions en 2025
  > 
 > 🚫 N'a pas choisi d'embaucher
  > 
@@ -106,6 +104,45 @@ $aboutMe = new AboutMe("Papoel", 39, "Dieppe", "Project Manager");
  > 
 > 🔑 23 dépots privés 
  > 
+**Je suis un 🦉 de nuit** 
+
+```text
+🌞 Matin                  1231 commits        ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   07.13 % 
+🌆 Journée                5234 commits        ⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   30.30 % 
+🌃 Soirée                 9323 commits        ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   53.97 % 
+🌙 Nuit                   1487 commits        ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   08.61 % 
+```
+📅 **Je suis le plus productif le Mercredi** 
+
+```text
+Lundi                    2604 commits        ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   15.07 % 
+Mardi                    1914 commits        ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   11.08 % 
+Mercredi                 3171 commits        ⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   18.36 % 
+Jeudi                    2122 commits        ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   12.28 % 
+Vendredi                 2808 commits        ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   16.25 % 
+Samedi                   2157 commits        ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   12.49 % 
+Dimanche                 2499 commits        ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   14.47 % 
+```
+
+
+📊 **Cette semaine, je passe mon temps sur** 
+
+```text
+🕑︎ Fuseau horaire: Europe/Paris
+
+💬 Langages: 
+Aucune activité enregistrée cette semaine
+
+🔥 Éditeurs de code: 
+Aucune activité enregistrée cette semaine
+
+🐱‍💻 Projets: 
+Aucune activité enregistrée cette semaine
+
+💻 Système d'exploitation: 
+Aucune activité enregistrée cette semaine
+```
+
 **Je code principalement en PHP** 
 
 ```text
@@ -119,6 +156,6 @@ Makefile                 2 repos             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 08/08/2025 00:13:08 UTC
+ Last Updated on 09/08/2025 00:13:35 UTC
 <!--END_SECTION:waka-->
 
