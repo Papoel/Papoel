@@ -88,6 +88,8 @@ $aboutMe = new AboutMe("Papoel", 39, "Dieppe", "Project Manager");
 ----
 ####  🧑‍💻 Wakatime Metrics
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-5%2C031%20hrs%2040%20mins-blue)
+
 ![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-0-blue)
 
 ![Lines of code](https://img.shields.io/badge/Depuis%20Hello%20World%2C%20j%27ai%20%C3%A9crit-20.9%20million%20Lignes%20de%20code-blue)
@@ -104,6 +106,45 @@ $aboutMe = new AboutMe("Papoel", 39, "Dieppe", "Project Manager");
  > 
 > 🔑 23 dépots privés 
  > 
+**Je suis un 🦉 de nuit** 
+
+```text
+🌞 Matin                  1251 commits        ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   07.00 % 
+🌆 Journée                5417 commits        ⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   30.31 % 
+🌃 Soirée                 9714 commits        ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   54.36 % 
+🌙 Nuit                   1489 commits        ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   08.33 % 
+```
+📅 **Je suis le plus productif le Mercredi** 
+
+```text
+Lundi                    2744 commits        ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   15.35 % 
+Mardi                    1960 commits        ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   10.97 % 
+Mercredi                 3245 commits        ⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   18.16 % 
+Jeudi                    2150 commits        ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   12.03 % 
+Vendredi                 2972 commits        ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   16.63 % 
+Samedi                   2219 commits        ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   12.42 % 
+Dimanche                 2581 commits        ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   14.44 % 
+```
+
+
+📊 **Cette semaine, je passe mon temps sur** 
+
+```text
+🕑︎ Fuseau horaire: Europe/Paris
+
+💬 Langages: 
+Aucune activité enregistrée cette semaine
+
+🔥 Éditeurs de code: 
+Aucune activité enregistrée cette semaine
+
+🐱‍💻 Projets: 
+Aucune activité enregistrée cette semaine
+
+💻 Système d'exploitation: 
+Aucune activité enregistrée cette semaine
+```
+
 **Je code principalement en PHP** 
 
 ```text
@@ -117,6 +158,6 @@ Makefile                 2 repos             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 30/08/2025 00:11:27 UTC
+ Last Updated on 31/08/2025 00:13:17 UTC
 <!--END_SECTION:waka-->
 
