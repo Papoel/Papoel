@@ -88,17 +88,15 @@ $aboutMe = new AboutMe("Papoel", 39, "Dieppe", "Project Manager");
 ----
 ####  🧑‍💻 Wakatime Metrics
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-5%2C064%20hrs%2043%20mins-blue)
-
 ![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-0-blue)
 
-![Lines of code](https://img.shields.io/badge/Depuis%20Hello%20World%2C%20j%27ai%20%C3%A9crit-21.4%20million%20Lignes%20de%20code-blue)
+![Lines of code](https://img.shields.io/badge/Depuis%20Hello%20World%2C%20j%27ai%20%C3%A9crit-21.9%20million%20Lignes%20de%20code-blue)
 
 **🐱 Mes données GitHub** 
 
 > 📦 1.3 MB Utilisés sur le stockage de GitHub 
  > 
-> 🏆 545 Contributions en 2025
+> 🏆 556 Contributions en 2025
  > 
 > 🚫 N'a pas choisi d'embaucher
  > 
@@ -106,50 +104,6 @@ $aboutMe = new AboutMe("Papoel", 39, "Dieppe", "Project Manager");
  > 
 > 🔑 24 dépots privés 
  > 
-**Je suis un 🦉 de nuit** 
-
-```text
-🌞 Matin                  1280 commits        ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   06.92 % 
-🌆 Journée                5620 commits        ⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   30.36 % 
-🌃 Soirée                 10119 commits       ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   54.67 % 
-🌙 Nuit                   1491 commits        ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   08.06 % 
-```
-📅 **Je suis le plus productif le Mercredi** 
-
-```text
-Lundi                    2884 commits        ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   15.58 % 
-Mardi                    2006 commits        ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   10.84 % 
-Mercredi                 3319 commits        ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   17.93 % 
-Jeudi                    2181 commits        ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   11.78 % 
-Vendredi                 3145 commits        ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   16.99 % 
-Samedi                   2299 commits        ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   12.42 % 
-Dimanche                 2676 commits        ⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   14.46 % 
-```
-
-
-📊 **Cette semaine, je passe mon temps sur** 
-
-```text
-🕑︎ Fuseau horaire: Europe/Paris
-
-💬 Langages: 
-Twig                     11 hrs 28 mins      ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜   62.42 % 
-PHP                      6 hrs 11 mins       ⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   33.69 % 
-Other                    11 mins             ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   01.02 % 
-HTML                     10 mins             ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   00.95 % 
-JSON                     10 mins             ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   00.93 % 
-
-🔥 Éditeurs de code: 
-Windsurf                 10 hrs 28 mins      ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   56.91 % 
-PhpStorm                 7 hrs 55 mins       ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   43.09 % 
-
-🐱‍💻 Projets: 
-GuideNouvelArrivant      18 hrs 23 mins      ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛   100.00 % 
-
-💻 Système d'exploitation: 
-Mac                      18 hrs 23 mins      ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛   100.00 % 
-```
-
 **Je code principalement en PHP** 
 
 ```text
@@ -163,6 +117,6 @@ Java                     1 repo              ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 19/09/2025 00:12:32 UTC
+ Last Updated on 20/09/2025 00:12:56 UTC
 <!--END_SECTION:waka-->
 
