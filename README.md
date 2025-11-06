@@ -90,7 +90,7 @@ $aboutMe = new AboutMe("Papoel", 39, "Dieppe", "Project Manager");
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-5%2C117%20hrs%2038%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-1-blue)
+![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-0-blue)
 
 ![Lines of code](https://img.shields.io/badge/Depuis%20Hello%20World%2C%20j%27ai%20%C3%A9crit-23.4%20million%20Lignes%20de%20code-blue)
 
@@ -161,6 +161,6 @@ Java                     1 repo              ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 05/11/2025 00:12:57 UTC
+ Last Updated on 06/11/2025 00:14:08 UTC
 <!--END_SECTION:waka-->
 
