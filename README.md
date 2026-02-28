@@ -90,7 +90,7 @@ $aboutMe = new AboutMe("Papoel", 39, "Dieppe", "Project Manager");
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-5%2C295%20hrs%2043%20mins-blue?style=flat)
 
-![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-1-blue?style=flat)
+![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-0-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/Depuis%20Hello%20World%2C%20j%27ai%20%C3%A9crit-27.33%20million%20Lignes%20de%20code-blue?style=flat)
 
@@ -164,6 +164,6 @@ Python                   1 repo              ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 27/02/2026 00:18:55 UTC
+ Last Updated on 28/02/2026 00:15:55 UTC
 <!--END_SECTION:waka-->
 
