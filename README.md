@@ -48,11 +48,11 @@ class AboutMe {
     }
 }
 
-$aboutMe = new AboutMe("Papoel", 39, "Dieppe", "Project Manager");
+$aboutMe = new AboutMe("Papoel", 41, "Dieppe", "Project Manager");
 ```
 >| Name     | Age | Location   | Occupation      |
 >|----------|-----|------------|-----------------|
->| Papoel   | 39  | Dieppe      | Project Manager|
+>| Papoel   | 41  | Dieppe      | Project Manager|
 
 ---
 #### Trophies
