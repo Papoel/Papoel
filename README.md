@@ -88,6 +88,8 @@ $aboutMe = new AboutMe("Papoel", 41, "Dieppe", "Project Manager");
 ----
 ####  🧑‍💻 Wakatime Metrics
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-5%2C400%20hrs%2018%20mins-blue?style=flat)
+
 ![Profile Views](http://img.shields.io/badge/Vues%20du%20profil-2-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/Depuis%20Hello%20World%2C%20j%27ai%20%C3%A9crit-33.25%20million%20Lignes%20de%20code-blue?style=flat)
@@ -96,7 +98,7 @@ $aboutMe = new AboutMe("Papoel", 41, "Dieppe", "Project Manager");
 
 > 📦 1.5 MB Utilisés sur le stockage de GitHub 
  > 
-> 🏆 213 Contributions en 2026
+> 🏆 214 Contributions en 2026
  > 
 > 🚫 N'a pas choisi d'embaucher
  > 
@@ -117,6 +119,6 @@ Python                   1 repo              ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 15/05/2026 00:34:41 UTC
+ Last Updated on 16/05/2026 00:32:45 UTC
 <!--END_SECTION:waka-->
 
