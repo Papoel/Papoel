@@ -3,7 +3,6 @@ name: Waka Readme Stats
 on:
   workflow_dispatch:
   schedule:
-    # Tous les jours à 00:00 UTC
     - cron: '0 0 * * *'
 
 permissions:
@@ -17,7 +16,7 @@ jobs:
   update-readme:
     name: Update README with WakaTime metrics
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repository
@@ -28,7 +27,6 @@ jobs:
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          TIME_RANGE: last_7_days
           SHOW_PROJECTS: "True"
           SHOW_COMMIT: "True"
           SYMBOL_VERSION: 3
