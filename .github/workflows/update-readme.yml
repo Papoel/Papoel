@@ -1,58 +1,73 @@
-name: Update README stats
+name: Waka Readme Stats
+
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
-  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: waka-readme-stats
+  cancel-in-progress: true
 
 jobs:
-  update-stats:
+  update-waka-stats:
+    name: Update README with WakaTime metrics
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Calculate age
-        id: age
-        run: |
-          set -euo pipefail
-          BIRTH_DATE="1985-02-20"
-          TODAY=$(date -u +%Y-%m-%d)
-          BIRTH_TS=$(date -u -d "$BIRTH_DATE" +%s)
-          TODAY_TS=$(date -u -d "$TODAY" +%s)
-          AGE=$(( (TODAY_TS - BIRTH_TS) / 31556952 ))
-          echo "Calculated age: $AGE"
-          echo "value=$AGE" >> "$GITHUB_OUTPUT"
+      - name: Update WakaTime stats in README
+        uses: anmol098/waka-readme-stats@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          SHOW_PROJECTS: "True"
+          SHOW_COMMIT: "True"
+          SYMBOL_VERSION: 3
+          SHOW_PROFILE_VIEWS: "True"
+          SHOW_LINES_OF_CODE: "True"
+          SHOW_DAYS_OF_WEEK: "True"
+          SHOW_SHORT_INFO: "True"
+          SHOW_LOC_CHART: "False"
+          SHOW_LANGUAGE_PER_REPO: "True"
+          SHOW_UPDATED_DATE: "False"
+          LOCALE: "fr"
 
-      - name: Verify placeholder exists
-        run: |
-          set -euo pipefail
-          if ! grep -q "<!--AGE-->" README.md; then
-            echo "::error::Placeholder <!--AGE--> introuvable dans README.md"
-            exit 1
-          fi
+  update-badge:
+    name: Update last-updated badge
+    needs: update-waka-stats
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
 
-      - name: Update README with age
-        run: |
-          set -euo pipefail
-          sed -i -E "s|<!--AGE-->.*<!--/AGE-->|<!--AGE-->${{ steps.age.outputs.value }} ans<!--/AGE-->|" README.md
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
 
-      - name: Generate stats image
-        run: |
-          mkdir -p charts
-          if curl -sf "https://github-readme-stats.vercel.app/api?username=Papoel&show_icons=true&theme=dracula" -o charts/stats.svg; then
-            echo "stats.svg generated"
-          else
-            echo "::warning::Service github-readme-stats indisponible, skip"
-            rm -f charts/stats.svg
-          fi
+      - name: Generate French timestamp
+        id: date
+        run: echo "now=$(TZ='Europe/Paris' date '+%d/%m/%Y %H:%M:%S')" >> "$GITHUB_OUTPUT"
 
       - name: Generate custom SVG badge
         run: |
-          cat > badge-updated.svg << 'EOF'
-          <svg xmlns="http://www.w3.org/2000/svg" width="280" height="28" role="img" aria-label="Dernière mise à jour">
-            <rect width="280" height="28" rx="6" fill="#0D262B"/>
-            <text x="140" y="18" font-family="Verdana, Geneva, sans-serif" font-size="12" fill="#0099A1" text-anchor="middle">
-              Dernière mise à jour le : ${{ steps.date.outputs.now }}
-            </text>
+          mkdir -p .github/assets
+          cat > .github/assets/badge-updated.svg << 'EOF'
+          <svg xmlns="http://www.w3.org/2000/svg" width="320" height="32" role="img" aria-label="Dernière mise à jour">
+            <defs>
+              <style>
+                .badge-bg { fill: #0D262B; }
+                .badge-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 500; fill: #0099A1; }
+              </style>
+            </defs>
+            <rect class="badge-bg" width="320" height="32" rx="6"/>
+            <text class="badge-text" x="160" y="22" text-anchor="middle">Dernière mise à jour : ${{ steps.date.outputs.now }}</text>
           </svg>
           EOF
 
@@ -60,17 +75,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add badge-updated.svg README.md
+          git add .github/assets/badge-updated.svg
           git diff --staged --quiet || git commit -m "chore: update last-updated badge [skip ci]"
-          git push
-
-      - name: Commit changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          if [ -f charts/stats.svg ]; then
-            git add charts/stats.svg
-          fi
-          git diff --staged --quiet || git commit -m "chore: update age and stats"
           git push
