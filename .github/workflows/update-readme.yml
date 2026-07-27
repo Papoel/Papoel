@@ -1,10 +1,19 @@
 name: Update README stats
+
 on:
   schedule:
     - cron: '0 0 * * *'
- workflow_dispatch:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
   update-stats:
+    runs-on: ubuntu-latest
+    steps:
       - uses: actions/checkout@v4
+
       - name: Calculate age
         id: age
         run: |
@@ -16,6 +25,13 @@ on:
           AGE=$(( (TODAY_TS - BIRTH_TS) / 31556952 ))
           echo "Calculated age: $AGE"
           echo "value=$AGE" >> "$GITHUB_OUTPUT"
+
+      - name: Get current date
+        id: date
+        run: |
+          set -euo pipefail
+          echo "now=$(date -u +'%Y-%m-%d %H:%M UTC')" >> "$GITHUB_OUTPUT"
+
       - name: Verify placeholder exists
         run: |
           set -euo pipefail
@@ -23,10 +39,12 @@ on:
             echo "::error::Placeholder <!--AGE--> introuvable dans README.md"
             exit 1
           fi
+
       - name: Update README with age
         run: |
           set -euo pipefail
           sed -i -E "s|<!--AGE-->.*<!--/AGE-->|<!--AGE-->${{ steps.age.outputs.value }} ans<!--/AGE-->|" README.md
+
       - name: Generate stats image
         run: |
           mkdir -p charts
@@ -48,21 +66,14 @@ on:
           </svg>
           EOF
 
-      - name: Commit and push badge update
+      - name: Commit and push changes
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add badge-updated.svg README.md
-          git diff --staged --quiet || git commit -m "chore: update last-updated badge [skip ci]"
-          git push
-
-      - name: Commit changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
+          git add README.md badge-updated.svg
           if [ -f charts/stats.svg ]; then
             git add charts/stats.svg
           fi
-          git diff --staged --quiet || git commit -m "chore: update age and stats"
+          git diff --staged --quiet || git commit -m "chore: update age, stats and badge"
           git push
