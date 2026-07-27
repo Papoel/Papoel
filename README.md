@@ -187,9 +187,11 @@ Python                   1 repo              ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
-
- Last Updated on 27/07/2026 17:30:18 UTC
 <!--END_SECTION:waka-->
+
+<div align="center">
+![Dernière mise à jour](./badge-updated.svg)
+</div>
 
 ---
 
