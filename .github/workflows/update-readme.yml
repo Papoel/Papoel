@@ -1,15 +1,10 @@
-name: Update README
+name: Update README stats
 on:
   schedule:
     - cron: '0 0 * * *'
-  workflow_dispatch:
-
-jobs:
+ workflow_dispatch:
   update-stats:
-    runs-on: ubuntu-latest
-    steps:
       - uses: actions/checkout@v4
-
       - name: Calculate age
         id: age
         run: |
@@ -21,7 +16,6 @@ jobs:
           AGE=$(( (TODAY_TS - BIRTH_TS) / 31556952 ))
           echo "Calculated age: $AGE"
           echo "value=$AGE" >> "$GITHUB_OUTPUT"
-
       - name: Verify placeholder exists
         run: |
           set -euo pipefail
@@ -29,21 +23,46 @@ jobs:
             echo "::error::Placeholder <!--AGE--> introuvable dans README.md"
             exit 1
           fi
-
       - name: Update README with age
         run: |
           set -euo pipefail
           sed -i -E "s|<!--AGE-->.*<!--/AGE-->|<!--AGE-->${{ steps.age.outputs.value }} ans<!--/AGE-->|" README.md
-
       - name: Generate stats image
         run: |
           mkdir -p charts
-          curl -sf "https://github-readme-stats.vercel.app/api?username=Papoel&show_icons=true&theme=dracula" -o charts/stats.svg || echo "Service down, skipping"
+          if curl -sf "https://github-readme-stats.vercel.app/api?username=Papoel&show_icons=true&theme=dracula" -o charts/stats.svg; then
+            echo "stats.svg generated"
+          else
+            echo "::warning::Service github-readme-stats indisponible, skip"
+            rm -f charts/stats.svg
+          fi
+
+      - name: Generate custom SVG badge
+        run: |
+          cat > badge-updated.svg << 'EOF'
+          <svg xmlns="http://www.w3.org/2000/svg" width="280" height="28" role="img" aria-label="Dernière mise à jour">
+            <rect width="280" height="28" rx="6" fill="#0D262B"/>
+            <text x="140" y="18" font-family="Verdana, Geneva, sans-serif" font-size="12" fill="#0099A1" text-anchor="middle">
+              Dernière mise à jour le : ${{ steps.date.outputs.now }}
+            </text>
+          </svg>
+          EOF
+
+      - name: Commit and push badge update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add badge-updated.svg README.md
+          git diff --staged --quiet || git commit -m "chore: update last-updated badge [skip ci]"
+          git push
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md charts/stats.svg
+          git add README.md
+          if [ -f charts/stats.svg ]; then
+            git add charts/stats.svg
+          fi
           git diff --staged --quiet || git commit -m "chore: update age and stats"
           git push
