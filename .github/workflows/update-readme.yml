@@ -1,4 +1,3 @@
-# .github/workflows/update-readme.yml
 name: Update README stats
 on:
   schedule:
@@ -14,18 +13,32 @@ jobs:
       - name: Calculate age
         id: age
         run: |
+          set -euo pipefail
           BIRTH_DATE="1985-02-20"
-          TODAY= $ (date +%Y-%m-%d)
-          AGE= $ (( (  $ (date -d " $ TODAY" +%s) -  $ (date -d " $ BIRTH_DATE" +%s) ) / 31556952 ))
-          echo "value= $ AGE" >> " $ GITHUB_OUTPUT"
+          TODAY=$(date -u +%Y-%m-%d)
+          BIRTH_TS=$(date -u -d "$BIRTH_DATE" +%s)
+          TODAY_TS=$(date -u -d "$TODAY" +%s)
+          AGE=$(( (TODAY_TS - BIRTH_TS) / 31556952 ))
+          echo "Calculated age: $AGE"
+          echo "value=$AGE" >> "$GITHUB_OUTPUT"
+
+      - name: Verify placeholder exists
+        run: |
+          set -euo pipefail
+          if ! grep -q "<!--AGE-->" README.md; then
+            echo "::error::Placeholder <!--AGE--> introuvable dans README.md"
+            exit 1
+          fi
 
       - name: Update README with age
         run: |
-          sed -i -E "s/calculé automatiquement[^|]*/${{ steps.age.outputs.value }} ans /" README.md
+          set -euo pipefail
+          sed -i -E "s|<!--AGE-->.*<!--/AGE-->|<!--AGE-->${{ steps.age.outputs.value }} ans<!--/AGE-->|" README.md
 
       - name: Generate stats image
         run: |
-          curl -s "https://github-readme-stats.vercel.app/api?username=Papoel&show_icons=true&theme=dracula" -o charts/stats.svg || echo "Service down, skipping"
+          mkdir -p charts
+          curl -sf "https://github-readme-stats.vercel.app/api?username=Papoel&show_icons=true&theme=dracula" -o charts/stats.svg || echo "Service down, skipping"
 
       - name: Commit changes
         run: |
