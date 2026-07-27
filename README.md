@@ -30,7 +30,7 @@ final class AboutMe
 
 | 🧑 Nom | 🎂 Âge | 📍 Ville | 💼 Métier |
 |--------|--------|----------|-----------|
-| Pascal "Papoel" Briffard | <!--AGE-->calculé automatiquement<!--/AGE--> | Dieppe, France | Chargé d'affaires chaudronnerie (CNPE Penly) |
+| Pascal "Papoel" Briffard | <!--AGE-->41 ans<!--/AGE--> | Dieppe, France | Chargé d'affaires chaudronnerie (CNPE Penly) |
 
 - 🎓 Certifié Fullstack Développeur depuis fin 2021
 - ❤️ Passionné par **Symfony** et le développement backend PHP
