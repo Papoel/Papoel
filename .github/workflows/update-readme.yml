@@ -10,13 +10,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Calculate age
+        id: age
+        run: |
+          BIRTH_DATE="1985-02-20"
+          TODAY= $ (date +%Y-%m-%d)
+          AGE= $ (( (  $ (date -d " $ TODAY" +%s) -  $ (date -d " $ BIRTH_DATE" +%s) ) / 31556952 ))
+          echo "value= $ AGE" >> " $ GITHUB_OUTPUT"
+
+      - name: Update README with age
+        run: |
+          sed -i -E "s/calculé automatiquement[^|]*/${{ steps.age.outputs.value }} ans /" README.md
+
       - name: Generate stats image
         run: |
           curl -s "https://github-readme-stats.vercel.app/api?username=Papoel&show_icons=true&theme=dracula" -o charts/stats.svg || echo "Service down, skipping"
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add charts/stats.svg
-          git diff --staged --quiet || git commit -m "chore: update stats svg"
+          git add README.md charts/stats.svg
+          git diff --staged --quiet || git commit -m "chore: update age and stats"
           git push
