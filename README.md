@@ -190,7 +190,9 @@ Python                   1 repo              ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 <!--END_SECTION:waka-->
 
 <div align="center">
-![Dernière mise à jour](./badge-updated.svg)
+
+![Dernière mise à jour](./.github/assets/badge-updated.svg)
+
 </div>
 
 ---
