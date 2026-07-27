@@ -1,0 +1,22 @@
+# .github/workflows/update-readme.yml
+name: Update README stats
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate stats image
+        run: |
+          curl -s "https://github-readme-stats.vercel.app/api?username=Papoel&show_icons=true&theme=dracula" -o charts/stats.svg || echo "Service down, skipping"
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add charts/stats.svg
+          git diff --staged --quiet || git commit -m "chore: update stats svg"
+          git push
