@@ -16,8 +16,8 @@ final class AboutMe
         private readonly string $name = 'Pascal Briffard',
         private readonly string $nickname = 'Papoel',
         private readonly string $city = 'Dieppe, France',
-        private readonly string $occupation = "Chargé d'affaires maintenance en centrale nucléaire ⚛️",
-        private readonly \DateTimeImmutable $birthDate = new \DateTimeImmutable('1985-02-20'),
+        private readonly string $occupation = "Chargé d'affaires en centrale nucléaire ⚛️",
+        private readonly \DateTimeImmutable $birthDate = new \DateTimeImmutable('1985'),
     ) {
     }
 
@@ -37,8 +37,6 @@ final class AboutMe
 - 🌙 Je code sur mon temps libre, en parallèle de mon métier dans le nucléaire
 - 🎯 Objectif : contribuer à des projets open source pour progresser
 - 📫 Toujours ouvert à la collaboration bénévole
-
-> *"Le code est un art, la propreté un devoir."* — Papoel
 
 ---
 
